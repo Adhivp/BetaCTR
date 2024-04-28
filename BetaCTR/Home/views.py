@@ -5,3 +5,6 @@ def home(request):
 
 def loading_page(request):
     return render(request, 'loading.html')
+
+def main_page(request):
+    return render(request,'main.html')
