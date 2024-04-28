@@ -1,0 +1,148 @@
+#loading-container {
+  background: linear-gradient(135deg, #0d0517, #160928, #35125e, #08040d);
+}
+.text-center h1 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 400 !important;
+}
+header{
+  background-image: url('../img/products/main-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-center span {
+  font-weight: 600 !important;
+  color: #3863f5;
+}
+section .discord .container #icon .discord-button a img{
+  height: 36px;
+}
+#loading-container .container .navbar-collapse .navbar-nav li a strong {
+  background-color: #3863f5;
+  padding: 15px 25px;
+  border-radius: 2rem;
+}
+#loading-container .container .navbar-collapse .navbar-nav li a strong:hover {
+  background-color: #325ce5;
+}
+.container .position-relative .ai-img img {
+  height: 20rem;
+  width: 30rem;
+  margin-right: 2rem;
+  overflow: hidden;
+}
+#loading-container .navbar{
+  background: none;
+}
+.container{
+  background: none;
+}
+.container .position-relative .ai-img {
+  height: 45rem;
+  display: flex;
+  position: relative;
+  right: 2rem;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.container .position-relative .content{
+  margin-top: -18rem;
+  margin-bottom: 5rem;
+}
+.container .position-relative .ai-img p{
+  position: relative;
+    top: -17rem;
+}
+.container .position-relative .ai-img #img-1{
+  position: relative;
+  right: 2rem;
+  border-radius: 2rem;
+}
+.container .position-relative .ai-img #img-2{
+  position: relative;
+  left: 8rem;
+  border-radius: 2rem;
+}
+#nav-first .gif-img img {
+  width: 36rem;
+  margin-top: -9rem;
+  position: relative;
+  left: 2rem;
+}
+/* 
+.parallax-image {
+  will-change: transform;
+}  */
+.lottie-container {
+  position: absolute;
+  z-index: 1;
+  will-change: transform;
+}
+.lottie-left {
+  top: 50%;
+  left: 10px;
+  transform: translate(-50%, -50%);
+}
+.lottie-right {
+  top: 50%;
+  right: 10px;
+  transform: translate(50%, -50%);
+}
+#card {
+  position: relative;
+  top: 4rem;
+  right: 15rem;
+}
+#nav-first {
+  width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30rem;
+}
+#nav-first .text-center {
+  width: 45rem;
+  height: 20rem;
+}
+#nav-first .text-center p {
+  margin-top: 2rem;
+}
+.lottie-animation {
+  max-width: 100px;
+  max-height: 100px;
+}
+section #glass-container{
+  background-image: url('../img/products/star1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#section-container{
+  background-image: url('../img/products/star2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.py-5{
+  background-image: url('../img/products/star2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+@media (max-width: 767px) {
+  .lottie-animation {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+

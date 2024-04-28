@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Favicon icon" type="image/png" href="{% static 'home/assets/img/Favicon.png' %}">
+    <title>Loading...</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .loading-container {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .loading-animation {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .loading-text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0d0d0d;
+            z-index: 0;
+            animation: openDoor 2s ease-in-out forwards;
+        }
+
+        .left-door,
+        .right-door {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background-color: #0d0d0d;
+        }
+
+        .left-door {
+            left: 0;
+            transform-origin: left center;
+        }
+
+        .right-door {
+            right: 0;
+            transform-origin: right center;
+        }
+
+        @keyframes openDoor {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .loading-container {
+                max-width: 50%;
+            }
+
+            .loading-animation {
+                width: 200px;
+                height: 200px;
+            }
+
+            .loading-text {
+                font-size: 36px;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .loading-container {
+                max-width: 40%;
+            }
+
+            .loading-animation {
+                width: 300px;
+                height: 300px;
+            }
+
+            .loading-text {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="left-door"></div>
+        <div class="right-door"></div>
+    </div>
+    <div class="loading-container">
+        <lottie-player class="loading-animation" 
+               src="{% static 'home/assets/js/loading-animation.json' %}" 
+               background="transparent" 
+               loop 
+               autoplay>
+</lottie-player>
+
+        <div class="loading-text">Loading...</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const animationContainer = document.querySelector('.loading-animation');
+            const animation = lottie.loadAnimation({
+                container: animationContainer,
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: '{% static "home/assets/js/loading-animation.json" %}' // Path to your Lottie JSON file
+            });
+        });
+    </script>
+</body>
+</html>
