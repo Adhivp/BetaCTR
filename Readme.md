@@ -1,17 +1,25 @@
-<h1 align="center" id="title">BetaCTR</h1>
+# BetaCTR
 
-<p id="description">YouTube thumbnail generator.We have generated a Comfyui workflow which gives us thumbnail based on the prompt and the reference images provided</p>
+**YouTube Thumbnail Generator**
 
-<h2>🚀 Demo</h2>
+BetaCTR is a powerful tool designed to streamline the creation of captivating YouTube thumbnails. Leveraging cutting-edge Comfyui workflows, it effortlessly generates thumbnails based on your prompt and reference images, ensuring your content stands out in the crowded digital landscape.
 
-[https://betactr-genai-buildathon-100x-engineers.onrender.com/](https://betactr-genai-buildathon-100x-engineers.onrender.com/)
+## 🚀 Demo
 
-<h2>Project Screenshots:</h2>
+[Experience the magic](https://betactr-genai-buildathon-100x-engineers.onrender.com/)
 
-<img src="https://drive.google.com/file/d/14Vd9V1LGsV-vmjhppNxRyhJRDvyY5Bfd/view?usp=drivesdk" alt="project-screenshot" width="766" height="546/">
+## Project Showcase
 
-<img src="https://drive.google.com/file/d/14VzD7EM4KGcIsOUmDDFTwj6vQtgl3rER/view?usp=drivesdk" alt="project-screenshot" width="766" height="546/">
+![Screenshot 1](https://drive.google.com/uc?id=14Vd9V1LGsV-vmjhppNxRyhJRDvyY5Bfd)
+*Crafted with precision, each thumbnail reflects your unique vision.*
 
-<img src="https://drive.google.com/file/d/14Xk-PAPcZCtDK23tx55cGpZxK2CLoTJN/view?usp=drivesdk" alt="project-screenshot" width="766" height="546/">
+![Screenshot 2](https://drive.google.com/uc?id=14VzD7EM4KGcIsOUmDDFTwj6vQtgl3rER)
+*Engage your audience with visually stunning imagery.*
 
-<img src="https://drive.google.com/file/d/14ZaZ6Y8T7iewR_4A83x-2KjUuac3-Jg4/view?usp=drivesdk" alt="project-screenshot" width="1087" height="495/">
+![Screenshot 3](https://drive.google.com/uc?id=14Xk-PAPcZCtDK23tx55cGpZxK2CLoTJN)
+*From concept to creation, BetaCTR empowers your creativity.*
+
+![Screenshot 4](https://drive.google.com/uc?id=14ZaZ6Y8T7iewR_4A83x-2KjUuac3-Jg4)
+*Experience the difference with BetaCTR.*
+
+Unlock the potential of your YouTube channel with BetaCTR - where innovation meets imagination.
